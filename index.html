@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="640" height="480"></canvas>
+
+  <script type="importmap">
+  {
+    "imports": {
+        "three": "./js/three.module.min.js",
+        "gltf" : "./js/GLTFLoader.js",
+        "OrbitControls" : "./js/OrbitControls.js",
+        "FBXLoader" : "./js/FBXLoader.js",
+        "FontLoader" : "./js/FontLoader.js"
+    }
+  }
+  </script>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
